@@ -1,0 +1,669 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Tecnoprint Cartuchos Sorocaba">
+    <meta name="keywords" content="cartuchos, toners, impressoras, outsourcing, computadores, notebooks">
+    <meta name="author" content="Lucas Valle">
+    <meta name="language" content="pt-br">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="imgs/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="imgs/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="imgs/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="imgs/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="imgs/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="imgs/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="imgs/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="imgs/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="imgs/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="imgs/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="imgs/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="imgs/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16"href="imgs/favicon/favicon-16x16.png">
+    <link rel="manifest" href="imgs/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="imgs/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <script type="text/javascript">
+      // Função da ancôra
+      function offsetAnchor() 
+      {
+        if(location.hash.length !== 0) 
+        {
+          window.scrollTo(window.scrollX, window.scrollY - 50);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+    </script>
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-61SKTPC2ZL"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-61SKTPC2ZL');
+    </script>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/functions.js"></script>
+    <title>Tecnoprint Eletroeletrônica - Suporte</title>
+  </head>
+  <body onload="onLoader()">
+    <!-- Menu -->
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-light fixed-top border-1" style="background-color:rgb(255, 255, 255)">
+      <div class="container"><a class="navbar-brand" href="#"><img src="imgs\logo.png"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#Serviços">
+                Serviços
+              </a>
+            </li>
+                    
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Acesso Remoto
+              </a>
+              <!-- Dropdown Acesso Remoto -->
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="https://download.anydesk.com/AnyDesk.exe?_ga=2.222247386.315661689.1621625544-1213310095.1621625544" target="_blank">
+                    <i class="bi bi-wifi"></i> AnyDesk
+                  </a>
+                </li>            
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li>
+                  <a class="dropdown-item" href="https://898.tv/tecnoprint" target="_blank">
+                    <i class="bi bi-wifi"></i> TeamViewer
+                  </a>
+                </li>
+              </ul>
+                </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link active" href="index.html#Drivers" tabindex="-1" aria-current="page">
+                      Drivers
+                    </a>
+                  </li><li class="nav-item">
+                    <a class="nav-link active" href="support.html" tabindex="-1" aria-current="page">
+                      Suporte
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="contact.php" tabindex="-1" aria-current="page">
+                      Contato
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="about.html" tabindex="-1" aria-current="page">
+                      Sobre
+                    </a>
+                  </li>
+          </ul>
+          <div class="btn-group p-3">
+            <span class="d-inline-block" tabindex="0" data-bs-toggle="tooltip" title="Loja em construção...">
+              <a href="#" class="btn btnReto btnLoja btn-secondary shadow-sm"
+              tabindex="-1" role="button" aria-disabled="false"><i class="bi bi-shop"></i> Loja Virtual</a>
+            </span>
+            <a href="https://sisprinter.com.br/suporte/?pglogin=called&search=&q=Y29kZT0xNzk1&pg=called" target="_blank" class="btn btnReto btnChamado btn-success shadow-sm" role="button"><i class="bi bi-headset"></i> Chamado</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Slides -->
+    <div class="container" style="padding-top: 6em">
+      <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner">
+          <!-- Slide 1 -->
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img src="imgs/s1.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block text-start">
+                <h5>Periféricos Gamer</h5>
+                <p>
+                  Para você jogar com todo o estilo e qualidade que você
+                </br>
+                  precisa e merece. Confira nossas opções.
+                </p>
+                <a href="https://wa.me/55015991255806?text=Gostaria de saber sobre os periféricos gamers." target="_blank" class="btn btn-success">
+                  <i class="bi bi-search"></i> Conferir
+                </a>
+              </div>
+          </div>
+          <!-- Slide 2 -->
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="imgs/s2.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block text-start" style="color:#000">
+              <h5>Para trabalhar</h5>
+                <p>
+                  Computadores com configuração ideal para o seu Home Office.
+                  </br>
+                  Dispositivos compactos e potentes, para um trabalho suave e de qualidade.
+                </p>
+                <a href="https://wa.me/55015991255806?text=Gostaria de saber sobre os computadores para Office." target="_blank" class="btn btn-success">
+                  <i class="bi bi-search"></i> Conferir
+                </a>
+            </div>
+          </div>
+          <!-- Slide 3 -->
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="imgs/s3.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block text-end">
+              <h5>Para jogar</h5>
+              <p>
+                Confira nossos computadores montados especialmente para você jogar!
+                <br>
+                Computadores no ponto certo para você jogar sem mais preocupações.
+              </p>
+              <a href="https://wa.me/55015991255806?text=Gostaria de saber sobre os computadores gamers." target="_blank" class="btn btn-success">
+                <i class="bi bi-search"></i> Conferir
+              </a>
+            </div>
+          </div>
+          <!-- Slide 4 -->
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="imgs/s4.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block h-100 align-middle text-start" style="top: 25%">
+              <h5>Aquasaver</h5>
+              <p>
+                Confira o coletor de água de banho
+                <br>
+                Economize dinheiro e cuide do planeta utilizando
+                <br>
+                a água coletada para ativadades como:
+                <br>
+                Descarga, lavar calçadas, lavar o carro...
+              </p>
+              <a href="https://aquasaver.com.br" target="_blank" class="btn btn-light shadow-lg">
+                <i class="bi bi-info-circle"></i> Sobre
+              </a>
+              <a href="https://tecnoprintcartuchostecnoprint.mercadoshops.com.br/MLB-2077985278-coletor-de-agua-de-banho-aquasaver-_JM"
+                target="_blank"
+                class="btn btn-primary shadow-lg">
+                  <i class="bi bi-cart-check"></i> Comprar
+              </a>
+              <div class="form-text text-white-50">
+                <i class="bi bi-info-circle"></i> Um produto TECNOPRINT
+              </div>
+            </div>
+          </div>
+          <!-- Slide 5 -->
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="imgs/s5.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block h-100 align-middle text-start" style="color: #000; top: 45%">
+              <h5>Loja Virtual</h5>
+              <p>
+                Agora você pode comprar na Tecnoprint Online!
+                <br>
+                Cartuchos, impressoras, periféricos e muito mais.
+                <br>
+                Clique e confira nossa loja virtual.
+              </p>
+              <a href="https://lojatecnoprint.com.br"
+                target="_blank"
+                class="btn btn-primary shadow-lg" style="background-color: #f65741; border: none">
+                  <i class="bi bi-shop"></i> Loja Virtual
+              </a>
+            </div>
+          </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+          </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    
+    <!-- Suporte -->
+    <div class="container" id="Support">
+        <h3 style="padding-top: 1em;">Suporte</h3>
+        <hr class="dropdown-divider">
+        <h5 style="padding-top: 1em;"> <i class="bi bi-journal-check"></i> Contadores</h5>
+        <p class="card-text">
+            Abaixo você encontra uma lista com todos os modelos locados pela <span style="font-weight: bold;">Tecnoprint</span>, caso você precise de ajuda
+            para tirar o contador de algum modelo, por favor, confira a marca da sua impressora, clique no modelo que deseja e assista ao
+            vídeo que disponibilizamos para ajuda-lo.
+        </p>
+
+      <!-- Brother -->
+      <div class="accordion accordion-flush" style="margin-top: 2em;" id="accordionFlushExample">
+        <h5>Brother</h5>
+        <!-- DCP8080DN -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#impBrotherDcp8080Dn" aria-expanded="false" aria-controls="flush-collapseOne">
+              Impressora Brother Multifuncional DCP 8080dn
+            </button>
+          </h2>
+          <div id="impBrotherDcp8080Dn" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+                <h5> DCP 8080dn </h5>
+                <p class="card-text">
+                  Para retirar o contador de páginas pressione o botão <b>Menu</b> no display da impressora, em seguida pressione o número <b>6</b> e por fim, pressione o número <b>4</b>.
+                </p>
+            </div>
+          </div>
+        </div>
+        <!-- DCP8085DN -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#impBrotherDcp8085Dn" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Impressora Brother Multifuncional DCP 8085dn
+            </button>
+          </h2>
+          <div id="impBrotherDcp8085Dn" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+          </div>
+        </div>
+        <!-- MFC8890DW -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#impBrotherMfc8890Dw" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Impressora Brother Multifuncional MFC 8890dw
+            </button>
+          </h2>
+          <div id="impBrotherMfc8890Dw" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+          </div>
+        </div>
+        <!-- DCP8157DN -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#impBrotherDcp8157Dn" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Impressora Brother Multifuncional DCP 8157dn
+            </button>
+          </h2>
+          <div id="impBrotherDcp8157Dn" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+          </div>
+        </div>       
+      </div>
+
+      <!-- Epson -->
+      <div class="accordion accordion-flush" style="margin-top: 1em;" id="accordionFlushExample">
+        <h5>Epson</h5>
+        <!-- L656 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#impEpsonL656" aria-expanded="false" aria-controls="flush-collapseOne">
+              Impressora Epson Multifuncional EcoTank L656
+            </button>
+          </h2>
+          <div id="impEpsonL656" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+                <h5> Modelo </h5>
+                <p class="card-text">
+                    Assista ao vídeo abaixo para receber instruções sobre como retirar o contador da impressora "Modelo":
+                </p>
+            </div>
+          </div>
+        </div>
+        <!-- L6190 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#impEpsonL6190" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Impressora Epson Multifuncional EcoTank L6190
+            </button>
+          </h2>
+          <div id="impEpsonL6190" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+          </div>
+        </div>
+        <!-- L6191 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#impEpsonL6191" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Impressora Epson Multifuncional EcoTank L6191
+            </button>
+          </h2>
+          <div id="impEpsonL6191" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+          </div>
+        </div>
+        <!-- L555 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#impEpsonL555" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Impressora Epson Multifuncional EcoTank L555
+            </button>
+          </h2>
+          <div id="impEpsonL555" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+          </div>
+        </div>
+        <!-- L455 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#impEpsonL455" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Impressora Epson Multifuncional EcoTank L455
+            </button>
+          </h2>
+          <div id="impEpsonL455" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+          </div>
+        </div>
+        <!-- L6171 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#impEpsonL6171" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Impressora Epson Multifuncional EcoTank L6171
+            </button>
+          </h2>
+          <div id="impEpsonL6171" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+          </div>
+        </div>
+        <!-- L14150 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#impEpsonL14150" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Impressora Epson Multifuncional EcoTank L14150
+            </button>
+          </h2>
+          <div id="impEpsonL14150" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+          </div>
+        </div>
+        <!-- L1455 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#impEpsonL1455" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Impressora Epson Multifuncional EcoTank L1455
+            </button>
+          </h2>
+          <div id="impEpsonL1455" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- HP -->
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+          <h5>HP</h5>      
+          <!-- HPM1219 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#imHpM1219" aria-expanded="false" aria-controls="flush-collapseOne">
+                Impressora HP M1219 1219
+              </button>
+            </h2>
+            <div id="imHpM1219" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                  <h5> Modelo </h5>
+                  <p class="card-text">
+                      Assista ao vídeo abaixo para receber instruções sobre como retirar o contador da impressora "Modelo":
+                  </p>
+                  <figure class="figure">
+                      <video style="width: 100%;height: auto;" controls>
+                          <source src="/video/exemplo.mp4" type="video/mp4">
+                      </video>
+                      <figcaption class="figure-caption">Instruções para contador da Impressora "Modelo".</figcaption>
+                    </figure>
+              </div>
+            </div>
+          </div>
+          <!-- HPM1132 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#impHpM1132" aria-expanded="false" aria-controls="flush-collapseTwo">
+                Impressora Multifuncional HP LaserJet Pro M1132
+              </button>
+            </h2>
+            <div id="impHpM1132" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+            </div>
+          </div>
+          <!-- HPMFPM428-->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#impHpProMfpM428" aria-expanded="false" aria-controls="flush-collapseThree">
+                Impressora HP LaserJet Pro MFP M428
+              </button>
+            </h2>
+            <div id="impHpProMfpM428" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+            </div>
+          </div>
+          <!-- HPP2055-->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingFour">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#impHpP2055" aria-expanded="false" aria-controls="flush-collapseThree">
+                Impressora HP LaserJet P2055dn
+              </button>
+            </h2>
+            <div id="impHpP2055" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+            </div>
+          </div>
+          <!-- HPPROP1102-->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#impHpProP1102" aria-expanded="false" aria-controls="flush-collapseThree">
+                Impressora HP LaserJet Pro P1102
+              </button>
+            </h2>
+            <div id="impHpProP1102" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+            </div>
+          </div>
+      </div>
+
+      <!-- Kyocera-->
+      <div class="accordion accordion-flush" style="margin-top: 1em;" id="accordionFlushExample">
+        <h5>Kyocera</h5>
+        <!-- M2040DN -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#impKyoceraM2040dn" aria-expanded="false" aria-controls="flush-collapseOne">
+              Impressora Kyocerra Multifuncional ECOSYS M2040dn
+            </button>
+          </h2>
+          <div id="impKyoceraM2040dn" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+                <h5> Modelo </h5>
+                <p class="card-text">
+                    Assista ao vídeo abaixo para receber instruções sobre como retirar o contador da impressora "Modelo":
+                </p>
+            </div>
+          </div>
+        </div>
+        <!-- M3550IDN -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#impKyoceraM3550Idn" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Impressora Kyocera Multifuncional ECOSYS M3550idn
+            </button>
+          </h2>
+          <div id="impKyoceraM3550Idn" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+          </div>
+        </div>
+        <!-- M3555IDN -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#impKyoceraM3555Idn" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Impressora Kyocera Multifuncional ECOSYS M3555idn
+            </button>
+          </h2>
+          <div id="impKyoceraM3555Idn" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Ricoh -->
+      <div class="accordion accordion-flush" style="margin-top: 1em;" id="accordionFlushExample">
+        <h5>Ricoh</h5>
+        <!-- SP77SDN-->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#impRicohSp77Sfn" aria-expanded="false" aria-controls="flush-collapseOne">
+              Impressora Ricoh SP 77SFNwX 
+            </button>
+          </h2>
+          <div id="impRicohSp77Sfn" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+                <h5> Modelo </h5>
+                <p class="card-text">
+                    Assista ao vídeo abaixo para receber instruções sobre como retirar o contador da impressora "Modelo":
+                </p>
+                <figure class="figure">
+                    <video style="width: 100%;height: auto;" controls>
+                        <source src="/video/exemplo.mp4" type="video/mp4">
+                    </video>
+                    <figcaption class="figure-caption">Instruções para contador da Impressora "Modelo".</figcaption>
+                  </figure>
+            </div>
+          </div>
+        </div>
+        <!-- SP3710SF -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#impRicohSp3770Sf" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Impressora Multifuncional Ricoh SP3710SF
+            </button>
+          </h2>
+          <div id="impRicohSp3770Sf" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Samsung -->
+      <div class="accordion accordion-flush" style="margin-top: 1em;" id="accordionFlushExample">
+        <h5>Epson</h5>
+        <!-- SLM4020DN -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#impSamsungM4020nd" aria-expanded="false" aria-controls="flush-collapseOne">
+              Impressora Samsung Laser SL-M4020ND
+            </button>
+          </h2>
+          <div id="impSamsungM4020nd" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+                <h5> Modelo </h5>
+                <p class="card-text">
+                    Assista ao vídeo abaixo para receber instruções sobre como retirar o contador da impressora "Modelo":
+                </p>
+            </div>
+          </div>
+        </div>
+        <!-- SLM4070 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#impSamsungM4070" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Impressora Samsung Multifuncional Laser SL-M4070FR
+            </button>
+          </h2>
+          <div id="impSamsungM4070" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="bg-light  text-center text-lg-start" style="margin-top: 5em;">
+      <div class="container p-4">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+            <h5 class="text-uppercase">TECNOPRINT CARTUCHOS</h5>
+              <p>
+                Rua Newton Prado, 280 - Vila Hortência, Sorocaba - SP
+                </br>
+                <i class="bi bi-envelope-fill"></i> atendimento@tecnoprintsp.com.br
+                </br>
+                <i class="bi bi-telephone-fill"></i> (15) 3211-8395
+                </br>
+                <i class="bi bi-whatsapp"></i>
+                (15) 9 9125-5806
+              </p>
+              <h5>Redes sociais:</h5>
+                <a href="https://www.facebook.com/tecnoprint.sorocaba" target="_blank"><i class="bi bi-facebook" style="color:rgb(31, 31, 31)"></i></a>
+                <a href="https://www.instagram.com/tecnoprintcartuchos" target="_blank"><i class="bi bi-instagram" style="color:rgb(31, 31, 31)"></i></a>
+                <a href="https://g.page/tecnoprintcartuchos?share" target="_blank"><i class="bi bi-google" style="color:rgb(31, 31, 31)"></i></a>
+                <a href="https://www.youtube.com/channel/UCSni4RL1CXp-DRs-JBjt0Ww" target="_blank"><i class="bi bi-youtube" style="color:rgb(31, 31, 31)"></i></a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">MENU</h5>
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="index.html" class="text-black-50">Home</a>
+              </li>
+              <li>
+                <a href="#Serviços" class="text-black-50">Serviços</a>
+              </li>
+              <li>
+                <a href="#Drivers" class="text-black-50">Drivers</a>
+              </li>
+              <li>
+                <a href="#!" class="text-black-50" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Loja em construção...">Loja Virtual</a>
+              </li>
+              <li>
+                <a href="contact.php" class="text-black-50">Contato</a>
+              </li>
+              <li>
+                <a href="about.html" class="text-black-50">Sobre</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-0">PRODUTOS</h5>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="https://aquasaver.com.br" target="_blank" class="text-black-50">Aquasaver</a>
+                </li>
+                <li>
+                  <a href="https://produto.mercadolivre.com.br/MLB-1914520011-suporte-externo-para-rolo-de-etiquetas-3-zebra-argox-godex-_JM?variation=87764356520#reco_item_pos=1&reco_backend=machinalis-seller-items-pdp&reco_backend_type=low_level&reco_client=vip-seller_items-above&reco_id=34470355-d80e-4952-870b-dba044f826b1" target="_blank" class="text-black-50">Suporte para Etiquetas</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-black-50">Impressoras</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-black-50">Desktops/Notebooks</a>
+                </li>
+              </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2021 Tecnoprint Eletroeletrônica LTDA - CNPJ: 03.183.293/0001-88 - Todos os direitos reservados.
+      </div>
+    </footer>
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

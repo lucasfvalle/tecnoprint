@@ -1,0 +1,80 @@
+body
+{
+    min-width: 372px;
+}
+html{
+    scroll-behavior: smooth;
+}
+.shadowNav{
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, .075) ;
+    transition: 0.9s;
+}
+.btnReto{
+    border-radius: 0px;
+}
+.btnLoja{
+    background-color: #f65741 !important;
+    border: 1px solid #f65741 !important;
+    transition: 0.5s;
+}
+.btnLoja:hover{
+    background-color:#cf412e !important;
+    border: 1px solid #cf412e !important;
+    transition: 0.5s;
+}
+
+.btnChamado{
+    background-color: #198754 !important;
+    border: 1px solid #198754 !important;
+    transition: 0.5s;
+}
+.btnChamado:hover{
+    background-color: #0e5e38 !important;
+    border: 1px solid #0e5e38 !important;
+    transition: 0.5s;
+}
+.backDrivers{
+   opacity: 0.6;
+   transition: 0.8s;
+}
+.backDrivers:hover{
+    opacity: 1.0;
+    transition: 0.8s;
+}
+
+#popup {
+    position: absolute;
+    margin: 0 auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 50px 2px #000;
+    padding-bottom: 5px;
+  }
+  #close {
+    width: 100px;
+    background-color: #cc0033;
+    color: #ffffff;
+    border: none;
+    margin-left: 5px;
+  }
+
+  @media only screen and (max-width: 480px){
+      #slider{
+          display: none;
+      }
+      #services{
+          margin-top: 3em;
+      }   
+  }
+  @media only screen and (min-width:1025px){
+      .chamadoMobile::after{
+         content:" Chamado";
+         justify-content: space-around;
+      }
+      .lojaMobile::after{
+        content:" Loja Virtual";
+        justify-content: space-around;
+        box-sizing: border-box;
+    }
+  }

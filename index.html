@@ -1,0 +1,543 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Tecnoprint Cartuchos Sorocaba">
+    <meta name="keywords" content="cartuchos, toners, impressoras, outsourcing, computadores, notebooks">
+    <meta name="author" content="Lucas Valle">
+    <meta name="language" content="pt-br">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="imgs/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="imgs/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="imgs/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="imgs/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="imgs/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="imgs/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="imgs/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="imgs/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="imgs/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="imgs/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="imgs/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="imgs/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16"href="imgs/favicon/favicon-16x16.png">
+    <link rel="manifest" href="imgs/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="imgs/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <script type="text/javascript">
+      // Função da ancôra
+      function offsetAnchor() 
+      {
+        if(location.hash.length !== 0) 
+        {
+          window.scrollTo(window.scrollX, window.scrollY - 50);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+    </script>
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-61SKTPC2ZL"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-61SKTPC2ZL');
+    </script>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- data-aos -->
+    
+    
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="js/functions.js"></script>
+    <title>Tecnoprint Eletroeletrônica - Ínicio</title>
+  </head>
+  <body>
+    <!-- Modal teste-->
+    <div class="modal fade"  id="modalLoja" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered " role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title"><i class="bi bi-megaphone-fill"></i> Novidade</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Temos uma novidade incrível para você!<br>
+              Agora você também pode comprar <strong>online</strong> na Tecnoprint
+            </p>
+            <img src="imgs/modalChamada.png" class="d-block w-100" style="margin-bottom: 1em" alt="Confira a loja virtual Tecnoprint">
+            <p>
+              Nossa loja virtual acabou de sair do forno, clique no botão<strong style="color: #f65741">"Loja Virtual"</strong>
+              e confira nossos preços e condições!
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary shadow-sm " data-bs-dismiss="modal">Continuar no site</button>
+            <a href="https://lojatecnoprint.com.br" target="_blank" class="btn btnLoja btn-secondary shadow-sm"
+              tabindex="-1" role="button" aria-disabled="false"><i class="bi bi-cart"></i> Loja Virtual</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Fim modal teste-->
+
+    <!-- Menu -->
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-light fixed-top border-1" style="background-color:rgb(255, 255, 255)">
+      <div class="container"><a class="navbar-brand" href="#"><img src="imgs\logo.png"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item menuNew">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item menuNew">
+              <a class="nav-link" aria-current="page" href="#services">
+                Serviços
+              </a>
+            </li>
+                    
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Acesso Remoto
+              </a>
+              <!-- Dropdown Acesso Remoto -->
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="https://download.anydesk.com/AnyDesk.exe?_ga=2.222247386.315661689.1621625544-1213310095.1621625544" target="_blank">
+                    <i class="bi bi-wifi"></i> AnyDesk
+                  </a>
+                </li>            
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li>
+                  <a class="dropdown-item" href="https://898.tv/tecnoprint" target="_blank">
+                    <i class="bi bi-wifi"></i> TeamViewer
+                  </a>
+                </li>
+              </ul>
+                </li>
+
+                  <li class="nav-item menuNew">
+                    <a class="nav-link" href="#Drivers" tabindex="-1" aria-current="page">
+                      Drivers
+                    </a>
+                  </li>
+                  <li class="nav-item menuNew">
+                    <a class="nav-link" href="contact.php" tabindex="-1" aria-current="page">
+                      Contato
+                    </a>
+                  </li>
+                  <li class="nav-item menuNew">
+                    <a class="nav-link" href="https://tecnoprint.com.br/blog" target="_blank" tabindex="-1" aria-current="page">
+                      Blog
+                    </a>
+                  </li>
+                  <li class="nav-item menuNew">
+                    <a class="nav-link" href="about.html" tabindex="-1" aria-current="page">
+                      Sobre
+                    </a>
+                  </li>
+          </ul>
+          <div class="btn-group p-3">
+            <span class="d-inline-block" tabindex="0" data-bs-toggle="tooltip" title="Loja em construção...">
+              <a href="https://lojatecnoprint.com.br" target="_blank" class="btn btnReto btnLoja btn-secondary shadow-sm lojaMobile"
+              tabindex="-1" role="button" aria-disabled="false"><i class="bi bi-cart"></i></a>
+            </span>
+            <a href="https://sisprinter.com.br/suporte/?pglogin=called&search=&q=Y29kZT0xNzk1&pg=called" target="_blank" class="btn btnReto btnChamado btn-success shadow-sm chamadoMobile" title="Abrir chamado" role="button"><i class="bi bi-headset"></i></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Slides -->
+    <div id="slider" class="container" style="padding-top: 6em" data-aos="fade-right">
+      <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner">
+          <!-- Slide 1 -->
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img src="imgs/s1.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block text-start">
+                <h5>Periféricos Gamer</h5>
+                <p>
+                  Para você jogar com todo o estilo e qualidade que você
+                </br>
+                  precisa e merece. Confira nossas opções.
+                </p>
+                <a href="https://wa.me/55015991255806?text=Gostaria de saber sobre os periféricos gamers." target="_blank" class="btn btn-success">
+                  <i class="bi bi-search"></i> Conferir
+                </a>
+              </div>
+          </div>
+          <!-- Slide 2 -->
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="imgs/s2.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block text-start" style="color:#000">
+              <h5>Para trabalhar</h5>
+                <p>
+                  Computadores com configuração ideal para o seu Home Office.
+                  </br>
+                  Dispositivos compactos e potentes, para um trabalho suave e de qualidade.
+                </p>
+                <a href="https://wa.me/55015991255806?text=Gostaria de saber sobre os computadores para Office." target="_blank" class="btn btn-success">
+                  <i class="bi bi-search"></i> Conferir
+                </a>
+            </div>
+          </div>
+          <!-- Slide 3 -->
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="imgs/s3.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block text-end">
+              <h5>Para jogar</h5>
+              <p>
+                Confira nossos computadores montados especialmente para você jogar!
+                <br>
+                Computadores no ponto certo para você jogar sem mais preocupações.
+              </p>
+              <a href="https://wa.me/55015991255806?text=Gostaria de saber sobre os computadores gamers." target="_blank" class="btn btn-success">
+                <i class="bi bi-search"></i> Conferir
+              </a>
+            </div>
+          </div>
+          <!-- Slide 4 -->
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="imgs/s4.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block h-100 align-middle text-start" style="top: 25%">
+              <h5>Aquasaver</h5>
+              <p>
+                Confira o coletor de água de banho
+                <br>
+                Economize dinheiro e cuide do planeta utilizando
+                <br>
+                a água coletada para ativadades como:
+                <br>
+                Descarga, lavar calçadas, lavar o carro...
+              </p>
+              <a href="https://aquasaver.com.br" target="_blank" class="btn btn-light shadow-lg">
+                <i class="bi bi-info-circle"></i> Sobre
+              </a>
+              <a href="https://tecnoprintcartuchostecnoprint.mercadoshops.com.br/MLB-2077985278-coletor-de-agua-de-banho-aquasaver-_JM"
+                target="_blank"
+                class="btn btn-primary shadow-lg">
+                  <i class="bi bi-cart-check"></i> Comprar
+              </a>
+              <div class="form-text text-white-50">
+                <i class="bi bi-info-circle"></i> Um produto TECNOPRINT
+              </div>
+            </div>
+          </div>
+          <!-- Slide 5 -->
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="imgs/s5.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block h-100 align-middle text-start" style="color: #000; top: 45%">
+              <h5>Loja Virtual</h5>
+              <p>
+                Agora você pode comprar na Tecnoprint Online!
+                <br>
+                Cartuchos, impressoras, periféricos e muito mais.
+                <br>
+                Clique e confira nossa loja virtual.
+              </p>
+              <a href="https://lojatecnoprint.com.br"
+                target="_blank"
+                class="btn btn-primary shadow-lg" style="background-color: #f65741; border: none">
+                  <i class="bi bi-shop"></i> Loja Virtual
+              </a>
+            </div>
+          </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+          </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    
+    <!-- Serviços -->
+    <div id="services" class="container" style="padding-top: 2em" id="Serviços" data-aos="fade-left">
+      <div id="serviceCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="0">
+        <!-- Controle serviços-->
+        <div id="controlServices" class="row">
+          <div class="col-6">
+            <h3 class="mb-3">Nossos Serviços</h3>
+          </div>
+          <div class="col-6 text-end">
+            <button class="btn btn-success" type="button" data-bs-target="#serviceCarousel" data-bs-slide="prev">
+              <i class="bi bi-arrow-left-circle"></i>
+            </button>
+            <button class="btn btn-success" type="button" data-bs-target="#serviceCarousel" data-bs-slide="next">
+              <i class="bi bi-arrow-right-circle"></i>
+            </button>
+          </div>
+        </div>
+        <div class="carousel-inner">
+            <!-- Primeira aba -->
+            <div class="carousel-item active">
+              <div class="row">
+                <!-- Card 1-->
+                <div class="col-md-3 mb-2">
+                  <div class="card border-0 shadow-sm">
+                    <img class="img-fluid" alt="100%x280" src="imgs/outsourImp.jpg">
+                      <div class="card-body">
+                        <h5 class="card-title">Outsourcing de Impressão</h5>
+                          <p class="card-text">
+                            Economize com os gastos de se adquirir equipamentos de impressão
+                            para a sua empresa. Consulte a locação.
+                          </p>
+                          <a href="https://wa.me/55015991255806?text=Gostaria de fazer um orçamento para locação de impressoas." target="_blank" class="btn btn-success">
+                            <i class="bi bi-whatsapp"></i> Orçamentos
+                          </a>
+                      </div>
+                  </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="col-md-3 mb-2">
+                  <div class="card border-0 shadow-sm">
+                    <img src="imgs/remanuCartuchos.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Remanufatura de Cartuchos/Toners</h5>
+                          <p class="card-text h-100">
+                            A TECNOPRINT garante que a qualidade e rendimento dos seus cartuchos são compatíveis
+                            com os cartuchos originais.
+                          </p>
+                          <a href="https://wa.me/55015991255806?text=Gostaria de fazer a recarga do meu cartucho/toner." target="_blank" class="btn btn-success">
+                            <i class="bi bi-whatsapp"></i> Consultar
+                          </a>
+                      </div>
+                  </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="col-md-3 mb-2">
+                  <div class="card border-0 shadow-sm">
+                    <img src="imgs/manuteImp.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Manutenção de Impressoras</h5>
+                          <p class="card-text">
+                            Laboratório próprio para manutenção de impressoras.
+                            com qualidade e confiabilidade garantidas.
+                          </p>
+                          <a href="https://wa.me/55015991255806?text=Gostaria de agendar a manutenção da minha impressora." target="_blank" class="btn btn-success">
+                            <i class="bi bi-whatsapp"></i> Agendar
+                          </a>
+                      </div>
+                  </div>
+                </div>
+                <!-- Card 4 -->
+                <div class="col-md-3 mb-2">
+                  <div class="card border-0 shadow-sm">
+                    <img src="imgs/manuteComp.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Manutenção de Computadores</h5>
+                        <p class="card-text h-100">
+                          Possuímos um suporte técnico com grande experiência no mercado para te auxiliar da melhor forma.
+                        </p>
+                        <a href="https://wa.me/55015991255806?text=Gostaria de agendar a manutenção do meu computador/notebook." target="_blank" class="btn btn-success">
+                          <i class="bi bi-whatsapp"></i> Agendar
+                        </a>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Segunda aba -->
+            <div class="carousel-item">
+              <div class="row">
+                <!-- Card 5 -->
+                <div class="col-md-4 mb-4">
+                  <div class="card border-0 shadow-sm">
+                    <img class="img-fluid" alt="100%x280" src="imgs/manuteNobr.jpg">
+                      <div class="card-body">
+                        <h5 class="card-title">Manutenção de Nobreaks</h5>
+                          <p class="card-text">
+                            Problemas com o seu Nobreak? A Tecnoprint também oferece
+                            manutenção e venda de Nobreaks!
+                          </p>
+                          <a href="https://wa.me/55015991255806?text=Gostaria de agendar a manutenção do meu Nobreak." target="_blank" class="btn btn-success">
+                            <i class="bi bi-whatsapp"></i> Agendar
+                          </a>
+                      </div>
+                  </div>
+                </div>
+                <!-- Card 6 -->
+                <div class="col-md-4 mb-4">
+                  <div class="card border-0 shadow-sm">
+                    <img class="img-fluid" alt="100%x280" src="imgs/manuteMoni.jpg">
+                    <div class="card-body">
+                      <h5 class="card-title">Manutenção de Monitores</h5>
+                        <p class="card-text">
+                          Se seu monitor deu defeito, não se preocupe com isso. A Tecnoprint
+                          também oferece a manutenção de monitores.
+                        </p>
+                        <a href="https://wa.me/55015991255806?text=Gostaria de agendar a manutenção do meu Monitor." target="_blank" class="btn btn-success">
+                          <i class="bi bi-whatsapp"></i> Agendar
+                        </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card 7 -->
+                <div class="col-md-4 mb-4">
+                  <div class="card border-0 shadow-sm">
+                    <img class="img-fluid" alt="100%x280" src="imgs/manuteTerm.jpg">
+                    <div class="card-body">
+                      <h5 class="card-title">Manutenção de Etiquetas</h5>
+                      <p class="card-text">
+                        A Tecnoprint oferece manutenção especializada em impressoras de 
+                        etiquetas. Além de sermos Autorizada ZEBRA.
+                      </p>
+                      <a href="https://wa.me/55015991255806?text=Gostaria de agendar a manutenção da minha Impressora Térmica." target="_blank" class="btn btn-success">
+                        <i class="bi bi-whatsapp"></i> Agendar
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>  
+
+    <!-- Drivers -->
+    <div class="container" id="Drivers" style="padding-top: 1em;" data-aos="fade-up">
+      <!-- Divisor -->
+      <hr class="dropdown-divider">
+      <h1>Drivers</h1>
+      <h6>Faça o download dos drivers de acordo com a marca do seu equipamento.</h6>
+      <p class="card-text" style="padding-bottom: 2em;">
+          Clique no logo correspondente à marca do seu equipamento para ser redirecionado a página de download dos drivers disponibilizados 
+          pelo fabricante da impressora. Em caso de dúvida, entre em contato conosco por meio da página
+          <a href="contact.php" class="link-success">"Contato"</a>.
+      </p>
+        <!-- Logotipos -->
+      <div class="container">
+          <a href="https://www.seagullscientific.com/support/downloads/drivers/" target="_blank"><img src="imgs/drivers/driverArgox.png" class="img-thumbnail backDrivers border-0 rounded-circle"></a>
+          <a href="https://support.brother.com/g/b/productsearch.aspx?c=br&lang=pt&content=dl" target="_blank"><img src="imgs/drivers/driverBrother.png" class="img-thumbnail backDrivers border-0 rounded-circle"></a>
+          <a href="https://www.canon.com.br/suporte" target="_blank"><img src="imgs/drivers/driverCanon.png" class="img-thumbnail backDrivers border-0 rounded-circle"></a>
+          <a href="https://www.seagullscientific.com/support/downloads/drivers/" target="_blank"><img src="imgs/drivers/driverDatamax.png" class="img-thumbnail backDrivers border-0 rounded-circle"></a>
+          <a href="https://automacao.elgin.com.br/" target="_blank"><img src="imgs/drivers/driverElgin.png" class="img-thumbnail backDrivers border-0 rounded-circle"></a>
+          <a href="https://epson.com.br/Suporte/sl/s" target="_blank"><img src="imgs/drivers/driverEpson.png" class="img-thumbnail backDrivers border-0 rounded-circle"></a>
+          <a href="https://www.seagullscientific.com/support/downloads/drivers/" target="_blank"><img src="imgs/drivers/driverGodex.png" class="img-thumbnail backDrivers border-0 rounded-circle"></a>
+          <a href="https://support.hp.com/br-pt/drivers" target="_blank"><img src="imgs/drivers/driverHp.png" class="img-thumbnail backDrivers border-0 rounded-circle"></a>
+          <a href="http://www.jetway.com.br/suporte/suporte-e-downloads/" target="_blank"> <img src="imgs/drivers/driverJetway.png" class="img-thumbnail backDrivers border-0 rounded-circle"></a>
+          <a href="https://br.kyoceradocumentsolutions.com/pt/download-center.html" target="_blank"><img src="imgs/drivers/driverKyocera.png" class="img-thumbnail backDrivers border-0 rounded-circle"></a>
+          <a href="https://www.lexmark.com/pt_br/support/download-search.html" target="_blank"><img src="imgs/drivers/driverLexmark.png" class="img-thumbnail backDrivers border-0 rounded-circle"></a>
+          <a href="https://www.oki.com/br/printing/support/drivers-and-utilities/index.html" target="_blank"><img src="imgs/drivers/driverOKi.png" class="img-thumbnail backDrivers border-0 rounded-circle"></a>
+          <a href="https://global.pantum.com/global/drive_tag/drive/" target="_blank"><img src="imgs/drivers/driverPantum.png" class="img-thumbnail backDrivers border-0 rounded-circle"></a>
+          <a href="https://www.ricoh-americalatina.com/pt-br/suporte-e-download" target="_blank"><img src="imgs/drivers/driverRicoh.png" class="img-thumbnail backDrivers border-0 rounded-circle"></a>
+          <a href="https://support.hp.com/br-pt/drivers" target="_blank"><img src="imgs/drivers/driverSamsung.png" class="img-thumbnail backDrivers border-0 rounded-circle"></a>
+          <a href="http://global.sharp/restricted/products/copier/downloads/select_pt_driver.html" target="_blank"><img src="imgs/drivers/driverSharp.png" class="img-thumbnail backDrivers border-0 rounded-circle"></a>
+          <a href="https://www.tanca.com.br/drivers.php" target="_blank"><img src="imgs/drivers/driverTanca.png" class="img-thumbnail backDrivers border-0 rounded-circle"></a>
+          <a href="https://www.support.xerox.com/ptbr.html#tprinters-t" target="_blank"><img src="imgs/drivers/driverXerox.png" class="img-thumbnail backDrivers border-0 rounded-circle"></a>
+          <a href="https://www.seagullscientific.com/support/downloads/drivers/" target="_blank"><img src="imgs/drivers/driverZebra.png" class="img-thumbnail backDrivers border-0 rounded-circle"></a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-light  text-center text-lg-start" style="margin-top: 5em;">
+      <div class="container p-4">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+            <h5 class="text-uppercase">TECNOPRINT CARTUCHOS</h5>
+              <p>
+                Rua Newton Prado, 280 - Vila Hortência, Sorocaba - SP
+                </br>
+                <i class="bi bi-envelope-fill"></i> atendimento@tecnoprintsp.com.br
+                </br>
+                <i class="bi bi-telephone-fill"></i> (15) 3211-8395
+                </br>
+                <i class="bi bi-whatsapp"></i>
+                (15) 9 9125-5806
+              </p>
+              <h5>Redes sociais:</h5>
+                <a href="https://www.facebook.com/tecnoprint.sorocaba" target="_blank"><i class="bi bi-facebook" style="color:rgb(31, 31, 31)"></i></a>
+                <a href="https://www.twitter.com/tecnoprint" target="_blank"><i class="bi bi-twitter" style="color:rgb(31, 31, 31)"></i></a>
+                <a href="https://www.instagram.com/tecnoprintcartuchos" target="_blank"><i class="bi bi-instagram" style="color:rgb(31, 31, 31)"></i></a>
+                <a href="https://g.page/tecnoprintcartuchos?share" target="_blank"><i class="bi bi-google" style="color:rgb(31, 31, 31)"></i></a>
+                <a href="https://www.youtube.com/channel/UCSni4RL1CXp-DRs-JBjt0Ww" target="_blank"><i class="bi bi-youtube" style="color:rgb(31, 31, 31)"></i></a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">MENU</h5>
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="index.html" class="text-black-50">Home</a>
+              </li>
+              <li>
+                <a href="#services" class="text-black-50">Serviços</a>
+              </li>
+              <li>
+                <a href="#Drivers" class="text-black-50">Drivers</a>
+              </li>
+              <li>
+                <a href="https://lojatecnoprint.com.br" target="_blank" class="text-black-50" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Loja em construção...">Loja Virtual</a>
+              </li>
+              <li>
+                <a href="contact.php" class="text-black-50">Contato</a>
+              </li>
+              <li>
+                <a href="https://tecnoprint.com.br/blog" target="_blank" class="text-black-50">Blog</a>
+              </li>
+              
+              <li>
+                <a href="about.html" class="text-black-50">Sobre</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-0">PRODUTOS</h5>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="https://aquasaver.com.br" target="_blank" class="text-black-50">Aquasaver</a>
+                </li>
+                <li>
+                  <a href="https://produto.mercadolivre.com.br/MLB-1914520011-suporte-externo-para-rolo-de-etiquetas-3-zebra-argox-godex-_JM?variation=87764356520#reco_item_pos=1&reco_backend=machinalis-seller-items-pdp&reco_backend_type=low_level&reco_client=vip-seller_items-above&reco_id=34470355-d80e-4952-870b-dba044f826b1" target="_blank" class="text-black-50">Suporte para Etiquetas</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-black-50">Impressoras</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-black-50">Desktops/Notebooks</a>
+                </li>
+              </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2021 Tecnoprint Eletroeletrônica LTDA - CNPJ: 03.183.293/0001-88 - Todos os direitos reservados.
+      </div>
+    </footer>
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
